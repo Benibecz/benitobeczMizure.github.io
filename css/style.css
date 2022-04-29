@@ -1,0 +1,121 @@
+/* Utilities */
+/* #3292a6 or rgba(50,146,166) */
+
+a{
+    margin: 0;
+}
+
+
+
+/* Navbar */
+
+.navbar{
+    border-bottom: 2px solid #343a40;
+    
+} 
+
+.navbar-container {
+    padding: 1% 10%;
+} 
+
+.navbar-brand{
+    font-weight: 600;
+    
+}
+
+#navbar .navbar-item{
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+} 
+
+/* Showcase */
+
+#showcase{
+    position: relative;
+    background-image: url(../img/mountains.jpg);
+    min-height: 600px;
+    
+    
+}
+.blue-overlay{
+    background-color: rgba(50,146,166,0.8);
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     
+
+}
+
+.showcase-text{
+    color: #fff;
+}
+#showcase button{
+    color: #fff;
+}
+
+#cards-deck{
+    background-color: #fff;
+
+}
+
+#why-this-book .card-header{
+    padding: 0.3rem;
+}
+
+/* Why this book */
+
+ .boton{
+    font-size: 1.2rem;
+  
+} 
+
+/* Meet the authors */
+
+/* .card-photo{
+    position: absolute;
+    top: -10%;
+    left: 32%;
+    
+} */
+
+#meet-the-authors img{
+    margin-top: -50px;
+    
+}
+
+#meet-the-authors .card:hover{
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+#meet-the-authors h5{
+    font-weight: 600;
+}
+
+#meet-the-authors i {
+    color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+
+    #showcase{
+        min-height: 500px;
+    }
+
+    #showcase h1 {
+        font-size: 4rem;
+    }
+
+    body .mb-resp{
+        margin-bottom: 1rem;
+    }
+
+    
+
+
+    
+}
